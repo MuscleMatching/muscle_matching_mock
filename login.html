@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Muscle</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="card login-card mx-auto mt-5">
+                <div class="card-body">
+                    <h2 class="car-title text-center mb-5">ログイン</h2>
+                    <form>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                        <input type="email" id="loginName" class="form-control " />
+                        <label class="form-label" for="loginName">Email</label>
+                        </div>
+                
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                        <input type="password" id="loginPassword" class="form-control " />
+                        <label class="form-label" for="loginPassword">パスワード</label>
+                        </div>
+                
+                        <!-- 2 column grid layout -->
+                        <div class="row">
+                        <div class="col-md-12 text-end">
+                            <!-- Simple link -->
+                            <a href="#!">パスワードを忘れた?</a>
+                        </div>
+                        </div>
+                
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">ログイン</button>
+                
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                        <p>会員登録は<a href="#!">こちら</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg- text-muted">
+      <hr>
+      <div class="container text-center text-md-start mt-3">
+          <div class="d-flex mx-auto gap-5">
+              <p>
+              <a href="#!" class="text-reset">利用規約</a>
+              </p>
+              <p>
+              <a href="#!" class="text-reset">プライバシーポリシー</a>
+              </p>
+              <p>
+              <a href="#!" class="text-reset">よくある質問</a>
+              </p>
+          </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright Muscle Moc
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="js/mdb.min.js" async defer></script>
+</body>
+</html>
