@@ -1,0 +1,137 @@
+.member-index {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .page-title {
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    margin-bottom: 2em;
+    margin-top: 30px;
+    font-size: 2.0rem;
+    font-weight: bold;
+    border-top: 3px solid #e41313;
+    border-bottom: 3px solid #e41313;
+    color: #e41313;
+    text-align: center;
+    max-width: 1200px;
+  }
+  
+  .transition-page-title,
+  .transition-page-title a {
+    color:#a9a9a9 !important;
+    font-size:1.0rem;
+  }
+  
+  .transition-page-title a {
+    text-decoration: underline;
+  }
+  
+  .member-info {
+    font-size: 1.333rem;
+    margin: 20px;
+    width: 700px;
+  }
+  
+  .mr-unit {
+    margin-top: 20px;
+  }
+  
+  .mr-ttl {
+    width: 250px;
+    font-size: 1.333rem;
+    font-weight: normal;
+    float: left;
+  }
+  
+  h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0;
+  }
+  
+  .mr-cnt {
+    margin-left: 270px;
+  }
+  
+  .sj-input {
+    border-radius: 5px;
+  }
+  
+  .mem-name input {
+    width: 150px;
+  }
+  
+  input.sj-input[type="text"], input.sj-input[type="tel"], input.sj-input[type="number"], textarea.sj-text {
+    padding: 2px 7px;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(0 0 0 / 5%) inset;
+    border: 1px solid #ccc;
+    font-size: 1.333rem;
+    outline: none;
+  }
+  
+  .select-unit02 select {
+    width: 100%;
+    padding: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none transparent;
+    border: none;
+    outline: none;
+    text-overflow: ellipsis;
+    position: relative;
+    z-index: 20;
+    vertical-align: middle;
+    text-indent: 0.01px;
+    text-overflow: '';
+  }
+  
+  .mem-birth .mem-birth-y, .mem-birth .mem-birth-m, .mem-birth .mem-birth-d {
+    display: inline-block;
+    max-width: 120px;
+    width: 20%;
+  }
+  
+  .select-unit02 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .mem-adr1 .select-unit02 {
+    width: 150px;
+  }
+  
+  .select-unit02 i {
+    width: 30px;
+    height: 30px;
+    content: "\02C5";
+    border-radius: 0 3px 3px 0;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    z-index: 10;
+  }
+  
+  .mr-button-unit {
+    width: 100%;
+  }
+  
+  .mr-button {
+    margin: 0 auto;
+  }
+  
+  .mr-button-unit button {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    font-size: 24px;
+  }
