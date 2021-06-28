@@ -1,0 +1,64 @@
+.top-index {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.trainer-banner-list{
+	display: flex;
+	flex-wrap:wrap;
+	padding-left: 0;
+}
+.trainer-banner-list li {
+	width: calc(100%/3);
+	padding:5px;
+	box-sizing:border-box;
+}
+.trainer-banner-list li img {
+	max-width:100%;
+	height: auto;
+	border:solid 1px #ccc;
+}
+
+h2 {
+  height: 100px;
+  position: relative;
+  padding: 0 2rem 0 160px;
+  border-bottom: 3px solid #000;
+}
+   
+h2 span {
+  font-size: 100px;
+  line-height: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.top-section {
+	margin: 30px 0 30px 0;
+}
+
+.service-overview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ovewview-image{
+    width: 30%;
+}
+
+.ovewview-text{
+    width: 68%;
+	margin: auto 0;
+}
+
+.ovewview-image img {
+	max-width:100%;
+	height: auto;
+	border:solid 1px #ccc;
+}
