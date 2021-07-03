@@ -24,6 +24,14 @@ ul {
 	border:solid 1px #ccc;
 }
 
+.title {
+  font-size: 5rem;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff,
+    -2px -2px 1px #ffffff, 2px 0px 1px #ffffff, 0px 2px 1px #ffffff,
+    -2px 0px 1px #ffffff, 0px -2px 1px #ffffff;
+}
+
 h2 {
   height: 100px;
   position: relative;
@@ -61,4 +69,9 @@ h2 span {
 	max-width:100%;
 	height: auto;
 	border:solid 1px #ccc;
+}
+
+.footer-link {
+    text-align: center;
+    display: block;
 }
