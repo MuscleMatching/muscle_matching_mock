@@ -1,0 +1,99 @@
+@import url(mdb.min.css);
+
+:root {
+    --primary-color: rgb(224, 224, 224);
+    --secondary-color: rgb(52,31, 228, 58%);
+    --sidebar-width: 200px;
+    --header-height: 72px;
+}
+
+* {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: var(--sidebar-width);
+    height: calc(100vh - var(--header-height));
+    background-color: var(--mdb-light);
+    border: 1px solid var(--primary-color);
+}
+
+.menu {
+    width: 100%;
+}
+
+.item {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.item {
+    font-size: 1.1rem;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+
+.item a {
+    color: var(--mdb-gray-dark);
+}
+
+.item:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s ease;
+    color: var(--mdb-white);
+}
+
+.item:hover a{
+    color: var(--mdb-white);
+}
+
+.item.active {
+    background-color: var(--secondary-color);
+    color: var(--mdb-white);
+}
+
+
+.item.active a{
+    color: var(--mdb-white);
+}
+
+.main {
+    margin-top: var(--header-height);
+    width: calc(100vw - var(--sidebar-width));
+    margin-left: var(--sidebar-width);
+    height: calc(100vh - var(--header-height));
+}
+
+#notice table tr {
+    cursor: pointer;
+}
+
+.footer-link {
+    text-align: center;
+    display: block;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.column-header {
+    width: 100px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.trainer-card {
+    display: inline-block;
+    width: 30%;
+}
