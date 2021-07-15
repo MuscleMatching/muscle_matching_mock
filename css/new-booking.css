@@ -86,6 +86,27 @@ main {
     padding: 1rem;
 }
 
-#notice table tr {
+.accordion-body {
+    overflow: auto;
+    max-height: 450px;
+}
+
+.accordion-button[aria-expanded="false"] + .accordion-subtitle{
+    visibility: visible;
+    opacity: 1;
+    transition: ease 1s;
+}
+
+.accordion-button[aria-expanded="true"] + .accordion-subtitle{
+    height: 0;
+}
+.accordion-subtitle {
+    visibility: hidden;
+    opacity: 0;
+    font-size: small;
+    margin-left: 2rem;
+}
+
+label.card {
     cursor: pointer;
 }

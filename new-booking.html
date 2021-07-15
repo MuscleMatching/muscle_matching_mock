@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Muscle Top</title>
+    <meta name="description" content="">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/new-booking.css">
+</head>
+
+<body class="bg-light">
+    <div id="container">
+        <!-- Header -->
+        <div class="gird-item1">
+            <header>
+                <nav class="navbar bg-light">
+                    <div class="container mx-2">
+                        <h1>
+                            <a href="index.html" class="text-black-50 fw-bold">Muscle</a>
+                        </h1>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="gird-item2">
+            <nav class="sidebar">
+                <section>
+                    <div class="item ripple">
+                        <i class="fas fa-home"></i>
+                        <a href="main.html">TOP</a>
+                    </div>
+                    <div class="item active ripple">
+                        <i class="far fa-calendar-alt"></i>
+                        <a href="new-booking.html">トレーニング予約1</a>
+                    </div>
+                    <div class="item ripple">
+                        <i class="far fa-calendar-alt"></i>
+                        <a href="form.html">トレーニング予約2</a>
+                    </div>
+                    <div class="item ripple">
+                        <i class="far fa-calendar-alt"></i>
+                        <a href="booking-list.html">予約一覧</a>
+                    </div>
+                    <div class="item ripple">
+                        <i class="fas fa-utensils me-1"></i>
+                        <a href="#">栄養管理</a>
+                    </div>
+                    <div class="item ripple">
+                        <i class="fas fa-user-edit"></i>
+                        <a href="#">会員情報変更</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="item ripple">
+                        <i class="fas fa-power-off"></i>
+                        <a href="#">ログアウト</a>
+                    </div>
+                </section>
+            </nav>
+        </div>
+
+        <!-- Main -->
+        <div class="gird-item3">
+            <main class="main">
+                <div class="content-body">
+                    <h2>トレーニングの予約
+                    </h2>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    #1 ジャンル・専門
+                                </button>
+                                <div class="accordion-subtitle">
+                                </div>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-mdb-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div>
+                                        <p>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="1"
+                                                    id="flexCheckDefault">
+                                                ダイエット
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="2"
+                                                    id="flexCheckDefault">
+                                                筋トレ
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="3"
+                                                    id="flexCheckDefault">
+                                                ヨガ
+                                            </label>
+                                        </div>
+                                        </p>
+                                        <p>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDisabled">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="4"
+                                                    id="flexCheckDisabled" disabled>
+                                                リハビリ
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDisabled">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="5"
+                                                    id="flexCheckDisabled" disabled>
+                                                食事/栄養管理
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline" style="width: 30%;">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" type="radio" name="rdo-1" value="6"
+                                                    id="flexCheckDefault">
+                                                ピラティス
+                                            </label>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    #2 トレーナー
+                                </button>
+                                <div class="accordion-subtitle">
+                                </div>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-mdb-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <label class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-3 h-100">
+                                                <img src="img/trainer1.jpg" alt="..." class="img-fluid" />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <p class="fs-6">ヨガインストラクター / 30代 / 女性</p>
+                                                    <p class="fw-bold fs-3">山田 花子</p>
+                                                    <p class="fs-6">専門：　ヨガ</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-3 h-100">
+                                                <img src="img/trainer2.jpg" alt="..." class="img-fluid" />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <p class="fs-6">ヨガインストラクター / 30代 / 女性</p>
+                                                    <p class="fw-bold fs-3">山田 花子</p>
+                                                    <p class="fs-6">専門：　ヨガ</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    #3 コース
+                                </button>
+                                <div class="accordion-subtitle">
+                                </div>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-mdb-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" value="1" name="rdo-2"
+                                                id="flexCheckDefault">
+                                            プティヨガ　プライベートレッスン 60分
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" value="2" name="rdo-2"
+                                                id="flexCheckDefault">
+                                            ブティヨガ　グループレッスン 70分
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    #4 予約日時
+                                </button>
+                                <div class="accordion-subtitle">
+                                </div>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-mdb-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="column-header">#</th>
+                                                <th scope="col">7/7(日)</th>
+                                                <th scope="col">7/8(月)</th>
+                                                <th scope="col">7/9(火)</th>
+                                                <th scope="col">7/10(水)</th>
+                                                <th scope="col">7/11(木)</th>
+                                                <th scope="col">7/12(金)</th>
+                                                <th scope="col">7/13(土)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">9:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17:30</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">18:00</th>
+                                                <td>
+                                                    <i class="fas fa-times"></i>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm px-3 w-100">
+                                                        <i class="far fa-circle"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                    data-mdb-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    #5 予約完了
+                                </button>
+                                <div class="accordion-subtitle">
+                                </div>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-mdb-parent="#accordionExample">
+                                <div class="accordion-body text-center">
+                                    <button type="button" class="btn btn-primary" data-mdb-toggle="modal"
+                                        data-mdb-target="#exampleModal">予約</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <div class="gird-item4">
+            <footer class="text-center text-lg-start bg-light text-muted">
+                <hr>
+                <div class="container text-center text-md-start">
+                    <div class="d-flex mx-auto gap-5">
+                        <p>
+                            <a href="#!" class="text-reset">利用規約</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">プライバシーポリシー</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">よくある質問</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2021 Copyright Muscle Moc
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">予約内容の確認</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section>
+                        <h3>■ジャンル・専門</h3>
+                        <p>ヨガ</p>
+                    </section>
+                    <section>
+                        <h3>■トレーナー</h3>
+                        <label class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3 h-100">
+                                    <img src="img/trainer1.jpg" alt="..." class="img-fluid" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="fs-6">ヨガインストラクター / 30代 / 女性</p>
+                                        <p class="fw-bold fs-3">山田 花子</p>
+                                        <p class="fs-6">専門：　ヨガ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </section>
+                    <section>
+                        <h3>■コース</h3>
+                        <p>プティヨガ　プライベートレッスン 60分</p>
+                    </section>
+                    <section>
+                        <h3>■予約日時</h3>
+                        <p>2021/07/26(月) 10:00</p>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                        キャンセル
+                    </button>
+                    <button type="button" class="btn btn-primary">予約する</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/mdb.min.js" async defer></script>
+<script src="js/new-booking.js" defer></script>
+
+</html>
