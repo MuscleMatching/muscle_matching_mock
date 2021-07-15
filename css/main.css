@@ -89,3 +89,8 @@ main {
 #notice table tr {
     cursor: pointer;
 }
+
+.footer-link {
+    text-align: center;
+    display: block;
+}
