@@ -1,0 +1,139 @@
+@import url(mdb.min.css);
+
+:root {
+    --primary-color: rgb(224, 224, 224);
+    --secondary-color: rgb(52, 31, 228, 58%);
+    --sidebar-width: 200px;
+    --header-height: 72px;
+}
+
+* {
+    font-family: "Sawarabi Gothic", sans-serif;
+}
+
+/* Layout */
+#container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: max-content 1fr max-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.gird-item1 {
+    z-index: 1;
+    grid-area: 1 / 1 / 2 / 6;
+}
+.gird-item2 {
+    z-index: 1;
+    grid-area: 2 / 1 / 4 / 2;
+}
+.gird-item3 {
+    z-index: 0;
+    grid-area: 2 / 2 / 3 / 6;
+    overflow: auto;
+}
+.gird-item4 {
+    grid-area: 3 / 2 / 4 / 6;
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--sidebar-width);
+    height: 100%;
+    background-color: var(--mdb-light);
+    border: 1px solid var(--primary-color);
+}
+
+.item {
+    font-size: 1.1rem;
+    line-height: 30px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item a {
+    color: var(--mdb-gray-dark);
+}
+
+.item:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s ease;
+    color: var(--mdb-white);
+}
+
+.item:hover a {
+    color: var(--mdb-white);
+}
+
+.item.active {
+    background-color: var(--secondary-color);
+    color: var(--mdb-white);
+}
+
+.item.active a {
+    color: var(--mdb-white);
+}
+
+/* Main */
+main {
+    padding: 1rem;
+}
+
+#notice table tr {
+    cursor: pointer;
+}
+
+.footer-link {
+    text-align: center;
+    display: block;
+}
+
+dt {
+	float: left ;
+	clear: left ;
+	margin-right: 0.5em ;
+	width: 160px ;
+}
+
+dd {
+    float: left;
+    margin-left: 1em;
+}
+
+h2 {
+    padding: 1rem 2rem;
+    border-left: 5px solid #000;
+    background: #f4f4f4;
+}
+
+.reserve-index-card {
+    display: inline-block;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.reserve-recent-body {
+    display: flex;
+}
+
+.reserve-recent-body-left {
+    width: 60%;
+    padding: 20px;
+}
+
+.reserve-recent-body-right {
+    width: 40%;
+    padding: 20px;
+}
+
+.reserve-recent-body-right a {
+    text-transform: initial;
+    font-size: 15px;
+}
